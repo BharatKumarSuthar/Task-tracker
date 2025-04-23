@@ -1,16 +1,20 @@
 # task_tracker
 
-A new Flutter project.
+This App is used to manage daily basis tasks
 
-## Getting Started
+## 🔧 Features
+- Easy to use
+- Lightweight and fast
+- Cross-platform support
 
-This project is a starting point for a Flutter application.
+## Screens
+- Splash Screen - Splash screen used in mobiles
+- SignUp Screen - For user sign up 
+- LogIn Screen - For user login 
+- DashBoard Screen - For managing user tasks 
+- Drawer - For User profile
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Libraries Used-
+- RiverPod - For app wide state management
+- Supabae - For Backend like SignUp, LogIn, LogOut and Database for storing tasks details
+- SharedPrefrences - For storing data locally like if User is loggedin then redirected to DashBoard screen else login screen
